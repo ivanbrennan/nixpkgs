@@ -1075,6 +1075,8 @@ with pkgs;
 
   pferd = callPackage ../tools/misc/pferd {};
 
+  picket = callPackage ../tools/misc/picket { };
+
   qFlipper = libsForQt515.callPackage ../tools/misc/qflipper { };
 
   quich = callPackage ../tools/misc/quich { } ;
